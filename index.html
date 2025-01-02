@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funky Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 2rem;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ffcc00;
+            padding: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            color: #333;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: white;
+        }
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .card {
+            width: 300px;
+            background: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h3 {
+            background: #ff6f61;
+            color: white;
+            margin: 0;
+            padding: 1rem;
+        }
+        .card p {
+            padding: 1rem;
+        }
+        .meme {
+            margin-top: 2rem;
+            font-size: 1.5rem;
+            color: #555;
+            font-weight: bold;
+            text-shadow: 2px 2px #ffcc00;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Welcome to the Funky Portfolio of Nonsense & Meme Culture!
+    </header>
+
+    <nav>
+        <a href="#sigma">Sigma Gyaat</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#memes">Memes</a>
+    </nav>
+
+    <section id="sigma" class="section">
+        <h2>What is Sigma Gyaat?</h2>
+        <p>Sigma Gyaat is the ultimate nonsense persona who never folds under peer pressure and thrives in meme-worthy chaos!</p>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Portfolio of Funky Creations</h2>
+        <div class="portfolio">
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Project 1">
+                <h3>Project 1: Meme Magnet</h3>
+                <p>A web scraper that collects the freshest memes from the internet daily.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Project 2">
+                <h3>Project 2: Gyaatify</h3>
+                <p>An AI bot that replies to every query with a "Sigma" attitude.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300" alt="Project 3">
+                <h3>Project 3: Chaos Organizer</h3>
+                <p>A task manager that uses memes to keep you motivated and on track.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="memes" class="section">
+        <h2>Recent Meme Culture</h2>
+        <p class="meme">"When life gives you lemons, make memes and break the internet."</p>
+        <p class="meme">"Sigma Rule #101: Ignore the haters, they are just fans in disguise."</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Funky Portfolio. Powered by Chaos & Creativity.
+    </footer>
+</body>
+</html>
